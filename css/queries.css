@@ -1,0 +1,461 @@
+/* for greater than 1500px */
+@media (min-width:94em){
+
+    html{
+        font-size: 87.5%;
+    }
+
+    .heading-primary--text{
+        font-size: 3.5rem;
+    }
+
+    .plus-icon {
+        width: 2rem;
+        height:2rem;
+    }
+      
+    .icon-notify {
+        height: 4rem;
+        width: 4rem;
+    }
+      
+    .profile-img {
+        height: 5rem;
+        width: 5rem;
+    }
+      
+    .user-name {
+        font-size: 2.4rem;
+    }
+
+    .aside-icon{
+        font-size: 3rem;
+    }
+
+    .section-title,
+    .project-icon{
+        font-size: 3rem;
+    }
+
+    .header-date,
+    .project-no,
+    .project-detail{
+        font-size: 2rem;
+    }
+
+    .project-detail,
+    .project-date,
+    .progress-text,
+    .percent,
+    .days,.client-message,
+    .icon-star,
+    .message-date,
+    .about-projects-container span{
+        font-size: 1.8rem;
+    }
+
+    .project-card-container{
+        margin-top: 5rem;   
+    }
+    .icon-more{
+        height:2.5rem;
+        width: 2.5rem;
+    }
+    .project-type,
+    .client-name{
+        font-size: 2.5rem;
+    }
+    .member-img{
+        height:3.5rem;
+        width:3.5rem;
+    }
+
+    .project-plus-icon{
+        height: 2.2rem;
+        width:2.2rem;
+        padding:.7rem;
+    }
+    .project-card-container{
+        gap:8rem;
+    }
+    .message{
+        padding:3.5rem 1.5rem 3.5rem 3.5rem;
+        align-items:center;
+    }
+
+    .client-img{
+        height: 6rem;
+        width: 6rem;
+        align-self: center;
+    }
+}
+
+
+/* FOR 1050px 1050/16 =66em */
+@media(max-width:66em){
+
+    .heading-primary{
+        gap:6rem;
+    }
+    .searchbar {
+        width:120%;
+    }     
+    .top-menu{
+        gap:1rem;
+    }
+
+    .icon-notify{
+        padding-right: .5rem;
+    }
+
+    .section-projects{
+        padding:3rem;
+    }
+    .project-no{
+        font-size: 1.4rem;
+    }
+
+    .project-detail,
+    .project-icon{
+        font-size: 1.2rem;
+    }
+
+    .project-card-container{
+       gap:2.5rem;
+    }
+
+    .days{
+        font-size: 1rem;
+        font-weight: 400;
+        padding:.6rem 1rem 0 1rem;
+    }
+
+    .message{
+        padding-top: 1.5rem;
+        padding-left: 1.5rem;
+        gap:1rem;
+    }
+
+    .client-message{
+        font-size: 1.2rem;
+    }
+    .client-img{
+        height: 4rem;
+        width:4rem;
+        align-self: center;
+    }
+}
+
+/* FOR  BELOW 900px */
+@media(max-width:56em) {
+
+    .main-container{
+        padding: 2rem 2rem 0 2rem;
+        overflow-y: scroll;
+    }
+    .grid{
+        gap:5rem;
+    }
+
+    .main-icon{
+        font-size: 3rem;
+    }
+    .section-header{
+        padding-right: 0;
+    }
+
+    .heading-primary{
+        gap:4rem;
+    }
+    .top-menu{
+        gap:.4rem;
+    }
+
+    .icon-notify{
+        padding-right:0;
+    }
+   
+    .section-main{
+        grid-template-columns: 1fr;
+    }
+    
+   .aside-menu {
+    float:none;
+    margin-left: 2rem;
+    }
+    .aside-menu-list{
+        display: flex;
+        gap:3rem;
+    }
+
+    .aside-icon{
+        font-size: 2rem;
+    }   
+   
+    .aside-menu-link:link,
+    .aside-menu-link:visited{
+        margin-bottom: 2rem;
+    } 
+
+    .section-projects{
+        border-radius: 3rem;
+        margin-left: 0;
+        height:auto;
+    }
+
+    .project-icon{
+        font-size: 1.4rem;
+    }
+    .project-card-container{
+        gap:5rem;
+        padding-bottom:0 ;
+     }
+     
+     .section-message{
+        width: 100%;
+     }
+     .message{
+        gap:2rem;
+     }
+
+     .client-message-container{
+        padding-bottom: 0;
+        height: auto;
+     }
+     .client-img{
+        height: 5rem;
+        width: 5rem;
+       }
+     .project-date{
+        margin-bottom: 2rem;
+     }
+}
+/* FOR BELOW 700PX */
+@media(max-width:45em){
+
+    .main-container{
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .main-icon{
+    font-size: 2.5rem;
+    }
+    .grid{
+        gap:2rem;
+    }
+
+    .section-header{
+        padding-right: 0;
+    }
+    .heading-primary{
+        gap:2rem;
+    }
+
+    .heading-primary--text{
+        font-size: 2.5rem;
+    }
+
+    .searchbar{
+        width:72%;
+        padding: 1rem 1rem 1rem 3.5rem;
+    }
+
+    ::-webkit-input-placeholder,
+    .searchbar-icon {
+        font-size: 1.2rem;
+    }
+
+    .plus-icon {
+        width: 1.2rem;
+        height: 1.2rem;
+        padding: .5rem;
+      }
+      
+      .icon-notify {
+        height: 2.2rem;
+        width: 2.2rem;
+      }
+
+    .profile-img{
+        height:2.5rem;
+        width: 2.5rem;
+        margin-right: .5rem;
+    }
+    .user-name{
+        font-size: 1.4rem;
+    }
+
+   .aside-menu{
+        float:none;
+        margin-left: 2rem;
+   }
+   .aside-menu-list{
+        display: flex;
+        gap:3rem;
+   }
+
+   .aside-icon{
+    font-size: 2rem;
+   }
+
+   .default-icon{
+    padding:1.2rem 1.6rem
+   }
+
+   .section-projects{
+    padding:2rem;
+    border-radius: 3rem;
+    margin-left: 0;
+   }
+
+   .project-no{
+    font-size: 1.4rem;
+   }
+
+   .project-detail{
+    font-size: 1.2rem;
+   }
+   .about-projects-container span{
+    font-size: 1rem;
+}
+   .project-icon{
+    font-size: 2rem;
+   }
+   .project-card-container{
+    gap:2rem;
+    padding-bottom: 0;
+   }
+   .project-card{
+    border-radius: 2rem;
+}
+   .member-img{
+    height: 2rem;
+    width: 2rem;
+   }
+
+   .project-plus-icon{
+    height: 1rem;
+    width: 1rem;
+   }
+   .days{
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+   }
+
+   
+}
+/* FOR BELOW 500PX */
+@media (max-width:31em){
+    html{
+        font-size: 56.25%;
+    }
+   
+    .aside-menu-list{
+        gap:2rem;
+    }
+   .aside-icon{
+    font-size: 1.4rem;
+   }
+   .default-icon{
+    padding:1.4rem 1.5rem;
+   }
+
+   .section-projects{
+    margin-top: -1rem;
+   }
+   .section-title{
+    font-size: 1.8rem;
+}
+
+.header-date{
+    font-size: 1.4rem;
+}
+.heading-primary--text{
+        font-size: 2rem;}
+
+    ::-webkit-input-placeholder,
+    .searchbar-icon {
+        font-size:.8rem;
+    }
+
+    .searchbar{
+        width:80%;
+        padding:.1rem .4rem .4rem 3rem;
+    }
+
+    .searchbar-icon{
+        left:6%;
+    }
+
+    .about-projects-container span{
+        font-size: .6rem;
+    }
+    .project-detail{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .project-card-container{
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+        padding: 3rem 3rem 2rem 3rem;
+        margin-top:0 ;
+    }
+
+    .project-card{
+        border-radius: 2rem;
+    }
+    .project-date{
+        margin-bottom: 0;
+    }
+}
+ /*  FOR BELOW 420px up to 280px*/
+@media (max-width:26em){
+
+    .main-icon{
+        font-size: 2rem;
+    }
+    .grid{
+        align-items: flex-start;
+    }
+    .heading-primary{
+        flex-direction: column;
+        gap:1rem;
+    }  
+    
+    .default-icon{
+        padding:0.8rem .8rem .4rem .8rem ;
+    }
+
+    .searchbar{
+        width: 100%;
+        padding-top:0;
+    }
+    .section-projects{
+        padding: 2rem;
+        border-radius: 2rem;
+    }
+    .about-projects-container{
+        grid-template-columns: repeat(5,1fr);
+    }
+    .about-project-icon{
+        display: flex;
+    }
+
+    .project-icon,
+    .project-no{
+        font-size: 1.2rem;
+    }
+
+    .project-detail{
+        font-size:.8rem;
+    }
+    .about-projects-container span{
+        display: none;
+    }
+
+    .project-card-container{
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+}
